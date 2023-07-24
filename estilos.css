@@ -1,0 +1,392 @@
+body{
+    background-color:#346b9a ;
+}  
+
+
+.encabezado{
+    width: 100%;
+    padding: 20px 0 20px 0;
+}  
+
+.encabezado_contenedor{
+    background-color:#0b6dd9;
+
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+} 
+
+.logoEmpresa{
+
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+align-items: center;
+
+} 
+    
+.logoEmpresa img{
+    width: 4rem;
+    width: 4rem;
+   
+}
+
+.logoEmpresa h1{
+    font-size: 1rem;
+    color: rgb(248, 241, 241);
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.contenido_contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+.objetivos h2{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 1rem;
+    color:white;
+}
+
+.objetivos p{
+    font-size: 1.5 rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: white;
+}
+
+.navegacion{
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.lista{
+    display:flex;
+    justify-content:space-between;
+}
+
+.lista li a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    color:#082f40  ;
+}
+
+.lista li a:hover{
+   color: rgb(235, 235, 245);
+
+   font-size: 1.7rem;
+}
+
+.servicios{
+    background-color:#a7bfd7;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+
+.contenido_servicios img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+} 
+
+.servicios h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    
+   
+    color: white;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction:column;
+}
+.mapa h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;font-weight: 800;
+    text-align: center;
+    color: white;
+}  
+
+.mapaGoogle iframe{
+
+    width: 100%;
+    height: 70%;
+}
+
+.contactos h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.datos input{
+    width: 20rem;
+    height: 1rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datos textarea{
+    width: 80%;
+    height: 6rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    resize: none;
+} 
+
+.datos botton{
+    width: 10rem;
+    height: 4rem;
+    background-color: #0b6dd9;
+    border-radius: 2px;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: center;
+
+} 
+
+.lista_redes{
+    display: flex;
+    align-items: center;
+    
+}
+
+.pie_pagina{
+    background-color:#a7bfd7;
+    padding: 20px 0;
+}
+
+.item_lista img{
+    width: 5rem;
+    height: 5rems;
+    justify-content: space-around;
+    margin-left: 1rem;
+    
+}
+
+.lista1 img{
+
+    margin-left: 1rem;
+}
+.derechos p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .encabezado_contenedor{
+        width: 100%;
+    }
+
+    .logoEmpresa h1{
+        text-transform: uppercase;
+    }
+
+    .lista li a {
+        font-size: 1.5rem;
+    }
+
+    .contenido_servicios img {
+        width: 8rem;
+        height: 8rem;
+        
+    }
+
+    .objetivos h2{
+      font-size:1.5rem ;
+    }
+
+    .objetivos p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contenido_servicios h3{ 
+        font-size: 1.5rem;
+    }
+
+    .logoEmpresa h1{ 
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .logoEmpresa img{ 
+        width: 8rem;
+        margin-top: 1rem;
+
+    }
+
+    .mapaGoogle iframe{
+        width:90rem;
+        height:30rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .datos input{
+        width: 50rem;
+        height: 2rem;
+    
+        font-size: 1.5rem;
+        
+    }
+       
+    .datos textarea{
+        width: 70rem;
+        height: 8rem;
+        border-radius: 1.5rem;
+        resize: none;
+    } 
+
+    .contenido{
+     
+        
+        flex-direction:row;
+        justify-content: space-between;
+    } 
+
+
+
+.servicios{
+
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+} 
+
+.datos textarea{
+
+    width: 60rem;
+} 
+
+.derechos p{
+    
+    font-size: 2rem;
+    
+}
+
+.item_lista img{
+    width: 5rem;
+    height: 5rems;
+    display: flex;
+    
+   } 
+
+
+   
+        
+    
+
+
+}
+@media screen and (min-width: 768px)and (max-width: 1024px){
+    .logoEmpresa h1{
+        font-size: 2rem;
+    }
+
+    .logoEmpresa img{
+        width: 6rem;
+        height: 6rem;
+        margin-top: 1rem;
+    }
+    .lista li a {
+        font-size: 2rem;
+        margin-left: 10rem;
+    }
+
+    .objetivos h2{
+        font-size: 2rem;
+       
+        margin-left: 50rem;
+        
+}
+
+.objetivos p{  
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.mapaGoogle iframe{
+    width:200%;
+    height:20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contenido{
+     
+        
+    flex-direction:row;
+    justify-content: space-between;
+} 
+.derechos p{
+    
+    font-size: 1.5rem;
+
+}
+
+.encabezado_contenedor{
+    
+    width: 100%;
+} 
+.servicios{
+width:200%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+   } 
+.contenido_servicios h3{
+margin-left: 1rem;
+    font-size: 2rem;
+} 
+
+.contenido_servicios img{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 1rem;
+}
+
+.datos input {
+    width: 50rem;
+    margin-left: 60rem;
+}
+
+
+.datos textarea{
+
+    width: 100rem;
+margin-left: 40rem;
+}
+}
